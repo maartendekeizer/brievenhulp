@@ -1,0 +1,3 @@
+# brievenhulp jobs
+* * * * * www-data php /srv/web/brievenhulp/bin/console brievenhulp:assign-hulpverlener --env=prod -vvv > /var/log/cron.log 2> /var/log/cron.log
+5 * * * * www-data php /srv/web/brievenhulp/bin/console brievenhulp:cleanup-hulpvragen --env=prod -vvv > /var/log/cron.log 2> /var/log/cron.log
